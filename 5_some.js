@@ -2,5 +2,6 @@
 
 let arr=[1,2,3,5,7]
 
-    const hasEven = arr.some(num => num % 2 === 0);
-    console.log(hasEven)
+    const someEven = arr.some(val => val % 2 === 0);
+
+    console.log(someEven)
